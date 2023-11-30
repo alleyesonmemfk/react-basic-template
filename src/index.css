@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	background-color: #f1eded;
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	font-size: 5em;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	color: #61dafb;
+}
+
+h1 img {
+	height: 150px;
+	animation: rotate 3s linear infinite;
+}
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
